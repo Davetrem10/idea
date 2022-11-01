@@ -1,0 +1,416 @@
+        *{
+          margin: 0;
+          padding: 0;
+        }
+       
+   .TD {
+        margin-left: 10%;
+         margin-right: 10%;
+         width: 80%;
+      
+
+   }
+    
+        p {
+           font-family: Arial, Helvetica, sans-serif;
+        }
+     
+  .topdoin {
+     display: grid;
+     grid-template-columns: auto auto auto ;
+      padding: 20px;
+     
+}
+ .HU h3 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+ }
+ ul li {
+    display: inline;
+     margin: 20px;
+ }
+  ul li a {
+    text-decoration: none;
+     color: black;
+      font-family: Arial, Helvetica, sans-serif;
+       font-size: 18px;
+  }
+  ul li a:hover {
+    color: green;
+     transition: 2s;
+     
+  }
+   
+     .id {
+    
+         transform: translateY(2px);
+     } 
+
+     .secsec {
+       display: flex;
+       margin-top: 50px;
+     }
+      .TXTAREA {
+          margin-left: 20px;
+          transform: translateY(60px);
+      }
+      .TXTAREA h2 {
+          font-size: 64px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      .TXTAREA img {
+        transform: translateX(-50px);
+        /* transform: translateY(10px); */
+        margin-top: 29px;
+      position: absolute;
+
+      }
+       .TXTAREA span {
+         margin-left: 70px;
+          position: relative;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+       }
+    
+
+      .TXTAREA p {
+           margin-top: 17px;}
+
+   .secsec img {
+     margin-left: 70px;
+   }
+    .buts{
+       background-color: green;
+        color: white;
+        padding: 15px;
+        border: green;
+         border-radius: 20px;
+         width: 196px;
+height: 50px;
+margin-top: 30px;
+    }
+    .buts:hover{
+       background-color: rgb(163, 196, 163);
+    }
+
+      span img  {
+         
+         transform: translateY(15px);
+         
+         
+         
+      }
+       
+
+      /* --icon section-- */
+ .iconsec {
+   margin-top: 30px; 
+   display: flex;
+   /* justify-content: center; */
+  
+ }
+
+
+
+   .iconsec div {
+      margin: 23px;
+   }
+
+
+  h5{
+   text-align: center;
+   margin-top: 70px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   
+  }
+
+/* --services section-- */
+    .servsec {
+      display: flex;
+      margin-top: 40px;
+    
+     
+    }
+     .OSIN {
+       margin: 15px; 
+       padding: 15px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+        border-bottom: 1px solid transparent; 
+       
+     }
+   
+   
+
+         .ON {
+         background-color:rgb(197, 197, 218);
+         border: rgb(197, 197, 218) ;
+          border-radius: 20px;
+         }
+         .ON:hover {
+           border: 2px solid blue;
+           
+         }
+
+         .OFF {
+               background-color: rgb(192, 218, 192);
+                border: rgb(192, 218, 192) ;
+                border-radius: 20px;
+         }
+         .OFF:hover {
+           border: 2px solid green;
+         }
+      
+      .ONI {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+         }
+       
+         .OFFI {
+               background-color: green ;
+               padding: 10px;
+               border-radius: 20px;
+               margin-bottom: 10px;
+            }
+                
+         
+/* ----fifth section--- */
+ 
+.fifsec {
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: auto auto;
+        
+
+
+   }
+  
+     .DIS {
+         transform: translateY(70px); 
+         
+     }
+     .DIS h2 {
+       font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+         margin-bottom: 17px;
+     }
+    .DIS p {
+       margin-bottom: 0px;
+       line-height: 18px;
+    }
+
+       .DIT {
+         transform: translateY(60px);
+       }
+        .DIU {
+          transform: translateY(110px);
+           margin-left: 42px;
+        }
+        #EA {
+           width: 60px;
+          
+        }
+        .DIU p {
+          margin-top: 10px;
+          margin-bottom: -2px;
+        }
+        .DIU h2 {
+          font-size: 40px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-bottom: 10px;
+          
+          
+        }
+         .DIU img {
+           margin-bottom: 10px;
+         }
+     
+      /* slideshow */
+              .slidesec {
+                margin-top: 170px;
+                background-color: bisque;
+                 text-align: center; 
+                 padding: 14px;
+                
+              
+              }
+              .slidesec img {
+                  width: 300px;
+              }
+              .slidesec h2 {
+                 font-family: Arial, Helvetica, sans-serif;
+              }
+              .mySlides img {
+                 width: 100px;
+                 margin: 10px;
+                 
+              }
+              .mySlides {
+                 text-align: center;
+              }
+                .mySlides {
+                   margin-top: 20px;
+               
+                }
+                .mySlides i {
+                   color: green;
+                }
+
+       /* --footer section ---          */
+        .footersection  {
+           margin-top: 90px;
+            display: flex;
+           
+        }
+       
+        
+        .FOOTIN li
+        {
+           display: list-item;
+           list-style-type: none;
+         } 
+         .FOOTIN li a {
+           font-size: 15px;
+         }
+         
+         .FEST {
+            margin-top: 22px;
+         }
+         .FOOTIN {
+         margin-left: 100px;
+         
+         }
+
+
+          
+         
+         
+        
+        
+  
+   
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+     
+/* ----media queries--- */
+
+  @media only screen and (max-width:1064px) {
+
+
+   .secsec {
+      display: inline;
+      margin: auto;
+      text-align: center;
+     
+    }
+       .secsec #IA {
+         margin-top: 80px;
+         width: 350px;
+         
+       }
+       
+       #MUI {
+         margin-bottom: 25px;
+       }
+
+
+   #BRR {
+       display: none;
+   }
+
+   .iconsec {
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: center;
+    }
+
+
+    .servsec {
+      display: grid;
+      grid-template-columns: auto auto;
+      text-align: center;
+      justify-content: center;
+     
+    }
+
+    .OSIN {
+      margin: 10px;
+      padding: 10px;
+      
+    }
+    .fifsec  {
+       display: inline;
+       text-align: center;
+        justify-content: center;
+    }
+    
+    .fifsec .IMI {
+      margin-top: 90px;
+    }
+   
+    .FOOTIN {
+      margin-left: 20px;
+      
+      }
+   
+     
+  }
+
+
+ 
+  @media only screen and (max-width:800px) {
+
+   ul li a {
+      
+         font-size: 15px;
+    }
+
+    .OSIN {
+      font-size: 12px;
+      
+    }
+  }
+
+
+  @media only screen and (max-width:650px) {
+
+  .EEE {
+     width: 330px;
+  }
+  .TXTAREA h2 {
+    font-size: 40px;
+    
+}
+
+.DIS h2 {
+  font-size: 30px;
+  
+}
+
+.DIU h2 {
+  font-size: 30px;
+  
+}
+
+
+
+
+  }
+
+
