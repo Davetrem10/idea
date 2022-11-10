@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 </head>
 
 <body>
@@ -18,9 +19,11 @@
     <div class="id">
       <img src="IMAGES/Idea.png">
     </div>
-
-    <div class="UL">
+   
+    <div class="UL" id="NAVLINKS">
+      <!-- <i class='bx bx-window-close' onclick="hideMenu()"></i> -->
       <ul>
+        
         <li><a href="#"> Home</a></li>
         <li><a href="#">News</a> </li>
         <li><a href="#SERVE">Services</a></li>
@@ -28,17 +31,22 @@
         <li><a href="#">About</a></li>
 
       </ul>
+      
     </div>
+    
 
     <div class="HU">
-      <h3>SIGN UP</h3>
+      <h3><a href="signup.html"> SIGN UP</a></h3>
     </div>
+    
   </div>
 
   <!-- second section -->
-   
+  <!-- <i class='bx bx-menu' onclick="showMenu()"></i> -->
    <section class="secsec TD">
+    
      <div class="TXTAREA">
+      
 <h2>
   Let's Build <br>  Your Business <br> Together
 </h2>
@@ -47,15 +55,15 @@
    <button class="buts">Get Started</button>
      <!-- <span id="BRR"> <br></span> -->
    
-      <img  src="IMAGES/play button image.png" > 
-      <span>Play Now</span>
+      <img  id="PN" src="IMAGES/play button image.png" > 
+      <span id="PN">Play Now</span>
       
    
 
 </div>
  
- <div>
-   <img id="IA" src="IMAGES/idea first image.png">
+ <div class="fim">
+   <img id="IA"  src="IMAGES/idea first image.png">
 
  </div>
 
@@ -288,6 +296,7 @@
 
    
 </body>
+
 <script>
   var slideIndex = 1;
   showDivs(slideIndex);
@@ -305,8 +314,29 @@
       x[i].style.display = "none";  
     }
     x[slideIndex-1].style.display = "block";  
+
   }
+
+
+
+//   var navLinks = document.getElementById(navLinks)
+
+// function showMenu() {
+//  navLinks.style.right = "0";
+// }
+
+// function hideMenu() {
+//  navLinks.style.left = "-200px";
+// }
+
+
+
+
+
   </script>
+
+   
+
 </html>
 
 
