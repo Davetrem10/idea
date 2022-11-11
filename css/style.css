@@ -8,7 +8,8 @@
          margin-right: 10%;
          width: 80%;
       
-   }
+    }
+    
     
         p {
            font-family: Arial, Helvetica, sans-serif;
@@ -188,16 +189,18 @@ margin-top: 30px;
 /* ----fifth section--- */
  
 .fifsec {
-        margin-top: 90px;
+        margin-top: 40px;
         display: grid;
         grid-template-columns: auto auto;
         
-
-
    }
+
+   /* #MUI {
+      margin-bottom: 50px;
+   } */
   
      .DIS {
-         transform: translateY(70px); 
+         transform: translateY(130px); 
          
      }
      .DIS h2 {
@@ -235,6 +238,7 @@ margin-top: 30px;
          .DIU img {
            margin-bottom: 10px;
          }
+
      
       /* slideshow */
 
@@ -272,8 +276,12 @@ margin-top: 30px;
         .footersection  {
            margin-top: 90px;
             display: flex;
+
            
         }
+         .FOOTIN {
+             margin-right: 80px;
+        } 
        
         
         .FOOTIN li
@@ -304,9 +312,13 @@ margin-top: 30px;
 
   .secsec {
       display: inline;
-       position: relative;
-        text-align: center; 
+        position: relative; 
+          text-align: center; 
+          
+         
+         
     }
+        
      .secsec #IA {
          display: none;
          
@@ -333,11 +345,11 @@ margin-top: 30px;
       padding: 10px;
       
     }
-    .fifsec  {
+     /* .fifsec  {
        display: inline;
        text-align: center;
         justify-content: center;
-    }
+    }  */
     
     .fifsec .IMI {
       margin-top: 90px;
@@ -347,70 +359,60 @@ margin-top: 30px;
       margin-left: 20px;
       
       }    
+    
+
+      @media only screen and (max-width:1094px) {
+        .iconsec {
+          display: grid;
+           justify-content: center;
+            text-align: center;
+            grid-template-columns: auto auto ;
+        
+       }
+      }
      
   
-  @media only screen and (max-width:634px) {
-    
- /* .topdoin {
-   position: absolute;
-    background: #f44336;
-    height: 100vh;
-     width: 200px;
-      top: 0;
-       right: -315px;
-        text-align: left;
-        z-index: 2;
-        margin: 0;
-        transition: 1s;
+  @media only screen and (max-width:678px) {
 
- }
- .topdoin ul li {
-   display: block;
- }
- .topdoin .bx {
-  display:  block;
-   margin: 10px;
- font-size: 22px;
-  cursor: pointer;
+    .servsec div {
+     
+     
+  }
 
-}
-  .bx-menu {
-      
-         margin-left: 290px;
-          font-size: 30px; */
   }
 
 
-  @media only screen and (max-width:1094px) {
-    .iconsec {
-      display: grid;
-       justify-content: center;
-        text-align: center;
-        grid-template-columns: auto auto ;
-    
-   }
-   }
+ 
 
-  @media only screen and (max-width:834px) {
+  @media only screen and (max-width:934px) {
       
     .footersection {
-      display: grid;
-       justify-content: center;
+      display: grid;     
                
   }  
+       .fifsec  {
+       display: inline;
+       text-align: center;
+        justify-content: center;
+    }  
    .iconsec {
-     display: block;
+     display: block;    
       justify-content: center;
        text-align: center;
+       
    
   } 
   .servsec {
      display: grid;
     
        text-align: center;
-        justify-content: center;
+        justify-content: center;      
        
   }
+  /* .servsec div {
+      width: 600px; 
+     
+  } */
   #NAVLINKS {
      display: none;
   }
@@ -421,7 +423,7 @@ margin-top: 30px;
 
   .topdoin {
     display: flex;
-     justify-content: space-around;
+     justify-content:space-between;
                 
 }
   /* .topdoin {
@@ -435,10 +437,18 @@ margin-top: 30px;
   @media only screen and (max-width:420px) {
 
   
-   /* .iconsec {
+  .servsec div {
+      width: 300px; 
      
-    
- }  */
+  }  
+    .slidesec {
+       width: 290px;
+       justify-content: center;
+       align-self: center;
+       
+       
+       
+    }
 
   } 
 
@@ -488,4 +498,4 @@ margin-top: 30px;
 
 
 
-
+      
