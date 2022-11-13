@@ -57,6 +57,7 @@
      .secsec {
        display: flex;
        margin-top: 50px;
+         height: 100vh; 
      }
       .TXTAREA {
           margin-left: 20px;
@@ -127,7 +128,7 @@ margin-top: 30px;
 
   h5{
    text-align: center;
-   margin-top: 70px;
+    margin-top: 60px; 
    font-family: Arial, Helvetica, sans-serif;
    font-size: 25px;
    
@@ -279,9 +280,9 @@ margin-top: 30px;
 
            
         }
-         .FOOTIN {
+          .FOOTIN {
              margin-right: 80px;
-        } 
+        }  
        
         
         .FOOTIN li
@@ -296,10 +297,10 @@ margin-top: 30px;
          .FEST {
             margin-top: 22px;
          }
-         .FOOTIN {
+          /* .FOOTIN {
          margin-left: 100px;
          
-         }
+         }  */
 
          .topdoin .bx {
             display: none;
@@ -309,14 +310,22 @@ margin-top: 30px;
 /* ----media queries--- */
 
   @media only screen and (max-width:1064px) {
+  
+
 
   .secsec {
       display: inline;
         position: relative; 
-          text-align: center; 
-          
-         
-         
+         text-align: center;  
+          /* height: 100vh;                            */
+    }
+    .DIU {
+      transform: translateY(69px);
+       margin-left: 0px;
+    }
+    .TXTAREA p {
+       text-align: center;
+      
     }
         
      .secsec #IA {
@@ -355,10 +364,10 @@ margin-top: 30px;
       margin-top: 90px;
     }
    
-    .FOOTIN {
+    /* .FOOTIN {
       margin-left: 20px;
       
-      }    
+      }     */
     
 
       @media only screen and (max-width:1094px) {
@@ -374,10 +383,16 @@ margin-top: 30px;
   
   @media only screen and (max-width:678px) {
 
-    .servsec div {
+    /* .servsec div {
      
      
+  } */
+  .secsec {
+  
+     height: 100vh;
   }
+
+  
 
   }
 
@@ -385,11 +400,26 @@ margin-top: 30px;
  
 
   @media only screen and (max-width:934px) {
+
+    * {
+      justify-content: center;
+    }
       
+     .secsec {     
+      height: 100%; 
+      /* position: relative;       */
+         
+    }  
+
     .footersection {
       display: grid;     
                
   }  
+  
+  /* .FOOTIN {
+
+
+  }  */
        .fifsec  {
        display: inline;
        text-align: center;
@@ -402,6 +432,10 @@ margin-top: 30px;
        
    
   } 
+  .servsec div {
+    width: 450px; 
+   
+}  
   .servsec {
      display: grid;
     
@@ -445,10 +479,20 @@ margin-top: 30px;
        width: 290px;
        justify-content: center;
        align-self: center;
-       
-       
-       
+        
     }
+
+    .secsec {
+  
+      height: 100vh;
+   }
+   .iconsec div img {
+    
+     scale: 0.7;
+   }
+   .iconsec div  {
+       margin: 0;
+   }
 
   } 
 
