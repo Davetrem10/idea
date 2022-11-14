@@ -56,7 +56,7 @@
      .secsec {
        display: flex;
        margin-top: 50px;
-         height: 100vh; 
+         /* height: 100vh;  */
      }
       .TXTAREA {
           margin-left: 20px;
@@ -136,7 +136,7 @@ margin-top: 30px;
 /* --services section-- */
     .servsec {
       display: flex;
-      margin-top: 40px;
+      margin-top: 20px;
     
      
     }
@@ -191,6 +191,7 @@ margin-top: 30px;
 .fifsec {
         margin-top: 40px;
         display: grid;
+         
         grid-template-columns: auto auto;
         
    }
@@ -316,7 +317,7 @@ margin-top: 30px;
       display: inline;
         position: relative; 
          text-align: center;  
-          /* height: 100vh;                            */
+          /* height: 100vh;   */
     }
     .DIU {
       transform: translateY(69px);
@@ -391,6 +392,24 @@ margin-top: 30px;
      height: 100vh;
   }
 
+
+  .iconsec {
+    margin-top: 30px; 
+   
+  }
+
+  h5 {
+     margin-top: 90px;
+  }
+  
+  
+  
+   #PEEPEE{
+    
+     margin-top: 160px;     
+      position: relative;
+   }
+
   
 
   }
@@ -413,6 +432,11 @@ margin-top: 30px;
      justify-content: center;
       margin-top: 10px;
  }  
+ .DIS {
+  transform: translateY(110px); 
+  
+}
+
 .iconsec {
   display: block;    
    justify-content: center;
