@@ -47,13 +47,12 @@
      
   }
 
-  /* ---second section --- */
-   
-     .id {
+  .id {
     
-         transform: translateY(2px);
-     } 
-
+    transform: translateY(2px);
+  } 
+  
+  /* ---second section --- */
      .secsec {
        display: flex;
        margin-top: 50px;
@@ -339,7 +338,7 @@ margin-top: 30px;
 
        
         #MUI {
-         margin-bottom: 25px;
+         margin-bottom: 55px;
        }
         
 
@@ -401,91 +400,87 @@ margin-top: 30px;
 
   @media only screen and (max-width:934px) {
 
-    * {
-      justify-content: center;
-    }
-      
-     .secsec {     
-      height: 100%; 
-      /* position: relative;       */
-         
-    }  
-
-    .footersection {
-      display: grid;     
-               
-  }  
   
-  /* .FOOTIN {
+    .footersection {
+      display: grid; 
+            
+  }  
 
 
-  }  */
-       .fifsec  {
-       display: inline;
-       text-align: center;
-        justify-content: center;
-    }  
-   .iconsec {
-     display: block;    
-      justify-content: center;
-       text-align: center;
-       
-   
-  } 
-  .servsec div {
-    width: 450px; 
-   
-}  
-  .servsec {
-     display: grid;
+  .fifsec  {
+    display: inline;
+    text-align: center;
+     justify-content: center;
+      margin-top: 10px;
+ }  
+.iconsec {
+  display: block;    
+   justify-content: center;
+    text-align: center;
     
-       text-align: center;
-        justify-content: center;      
-       
-  }
-  /* .servsec div {
-      width: 600px; 
-     
-  } */
-  #NAVLINKS {
-     display: none;
-  }
 
-  #PN {
-     display: none;
-  }
+} 
+.servsec div {
+ width: 450px; 
 
-  .topdoin {
-    display: flex;
-     justify-content:space-between;
-                
-}
-  /* .topdoin {
-     display: none;
-  }
-   */
+}  
+.servsec {
+  display: grid;
  
-  }
+    text-align: center;
+     justify-content: center;      
+    
+}
+/* .servsec div {
+   width: 600px; 
+  
+} */
+#NAVLINKS {
+  display: none;
+}
 
+#PN {
+  display: none;
+}
+
+.topdoin {
+ display: flex;
+  justify-content:space-between;
+             
+}
+
+}
+  
 
   @media only screen and (max-width:420px) {
 
-  
+  /* .DIS h2 {
+      
+     
+       
+  } */
+  .TXTAREA p {
+     color: gray;
+      /* margin-right: 17px; */
+  }
   .servsec div {
       width: 300px; 
      
   }  
-    .slidesec {
-       width: 290px;
-       justify-content: center;
-       align-self: center;
-        
-    }
+      
+   
 
-    .secsec {
-  
-      height: 100vh;
-   }
+     .FOOTIN {
+       transform: translateX(-20px);
+     }
+
+      .id {
+         
+           transform: translateX(-30px);
+      }
+        
+
+   
    .iconsec div img {
     
      scale: 0.7;
@@ -494,7 +489,7 @@ margin-top: 30px;
        margin: 0;
    }
 
-  } 
+  }
 
  
   @media only screen and (max-width:800px) {
@@ -534,12 +529,3 @@ margin-top: 30px;
 
   }
 
-
-
-
-
-
-
-
-
-      
