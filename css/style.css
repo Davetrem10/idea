@@ -10,9 +10,10 @@
       
     }
     
-    
+   
         p {
            font-family: Arial, Helvetica, sans-serif;
+           line-height: 23px;
         }
      
   .topdoin {
@@ -21,10 +22,12 @@
       padding: 20px;
                  
 }
+
  .HU h3 {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
  }
+
  .HU h3 a {
     color: black;
      text-decoration: none; 
@@ -35,12 +38,14 @@
     display: inline;
      margin: 20px;
  }
+
   ul li a {
     text-decoration: none;
      color: black;
       font-family: Arial, Helvetica, sans-serif;
        font-size: 18px;
   }
+
   ul li a:hover {
     color: green;
      transition: 2s;
@@ -51,6 +56,9 @@
     
     transform: translateY(2px);
   } 
+
+
+
   
   /* ---second section --- */
      .secsec {
@@ -58,14 +66,17 @@
        margin-top: 50px;
          /* height: 100vh;  */
      }
+
       .TXTAREA {
           margin-left: 20px;
           transform: translateY(60px);
       }
+
       .TXTAREA h2 {
           font-size: 64px;
           font-family: Arial, Helvetica, sans-serif;
       }
+
       .TXTAREA img {
         transform: translateX(-50px);
         /* transform: translateY(10px); */
@@ -73,6 +84,7 @@
       position: absolute;
 
       }
+
        .TXTAREA span {
          margin-left: 70px;
           position: relative;
@@ -82,7 +94,8 @@
     
 
       .TXTAREA p {
-           margin-top: 17px;}
+           margin-top: 17px;
+          }
 
    .secsec img {
      margin-left: 70px;
@@ -94,23 +107,26 @@
         border: green;
          border-radius: 20px;
          width: 196px;
-height: 50px;
-margin-top: 30px;
+      height: 50px;
+      margin-top: 30px;
     }
+
     .buts:hover{
-       background-color: rgb(163, 196, 163);
+       background-color:rgb(59, 179, 59) ;
     }
 
       span img  {
          
          transform: translateY(15px);
-         
-         
-         
+                    
       }
        
 
-      /* --icon section-- */
+
+
+      /* --ICON SECTION -- */
+
+
  .iconsec {
    margin-top: 30px; 
    display: flex;
@@ -133,19 +149,20 @@ margin-top: 30px;
    
   }
 
-/* --services section-- */
+
+/* -- SERVICES SECTION-- */
     .servsec {
       display: flex;
       margin-top: 20px;
     
      
     }
-     .OSIN {
-       margin: 15px; 
-       padding: 15px;
+     .OSIN {    
+      margin: 15px;
+       padding: 45px;
        font-family: Arial, Helvetica, sans-serif;
-       font-size: 15px;
-        border-bottom: 1px solid transparent; 
+       /* font-size: 15px; */
+        
        
      }
    
@@ -155,6 +172,7 @@ margin-top: 30px;
          background-color:rgb(197, 197, 218);
          border: rgb(197, 197, 218) ;
           border-radius: 20px;
+           
          }
          .ON:hover {
            border: 2px solid blue;
@@ -190,10 +208,14 @@ margin-top: 30px;
  
 .fifsec {
         margin-top: 40px;
-        display: grid;
-         
+        display: grid;      
         grid-template-columns: auto auto;
         
+   }
+
+   .fifsec p {
+     line-height: 23px;
+    
    }
 
    /* #MUI {
@@ -211,7 +233,7 @@ margin-top: 30px;
      }
     .DIS p {
        margin-bottom: 0px;
-       line-height: 18px;
+       line-height: 23px;
     }
 
        .DIT {
@@ -241,7 +263,7 @@ margin-top: 30px;
          }
 
      
-      /* slideshow */
+      /* SLIDESHOW */
 
               .slidesec {
                 margin-top: 170px;
@@ -256,6 +278,7 @@ margin-top: 30px;
               }
               .slidesec h2 {
                  font-family: Arial, Helvetica, sans-serif;
+                 font-size: 40px;
               }
               .mySlides img {
                  width: 100px;
@@ -273,7 +296,7 @@ margin-top: 30px;
                    color: green;
                 }
 
-       /* --footer section ---  */
+       /* -- FOOTER SECTION  ---  */
         .footersection  {
            margin-top: 90px;
             display: flex;
@@ -307,7 +330,7 @@ margin-top: 30px;
          }
 
      
-/* ----media queries--- */
+/* ---- MEDIA QUERIES--- */
 
   @media only screen and (max-width:1064px) {
   
